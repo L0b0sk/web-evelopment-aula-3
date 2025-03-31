@@ -7,13 +7,16 @@ console.log(idade);
 const sobrenome = "Fiapinho";
 console.log(sobrenome);
 
+
 //declarando uma variavel indefinda
 let nome1;
 console.log(nome1);
 
+
 //declarando uma variavel vazia / nula
 let nome2=null;
 console.log(nome2);
+
 
 //Tipos de variaveis 
 let exemplo1 = 10; 
@@ -30,3 +33,13 @@ console.log(typeof exemplo4);
 
 let exemplo5 = [];
 console.log(typeof exemplo5);
+
+
+//conversoes
+
+let numFloat = 123.456;
+console.log(parseInt(numFloat));
+
+let numString = "123.456";
+console.log(parseFloat(numString));
+
